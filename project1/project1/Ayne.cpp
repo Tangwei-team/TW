@@ -20,7 +20,7 @@ void Graphmtx::PrintItem(string s)	//输出路由表
 }
 bool Graphmtx::insertEdge(int v1, int v2, int cost)//插入边
 {
-
+	cout << "ayinuer" << endl;
 	if (v1 > -1 && v1< numVertices && v2>-1 && v2 < numVertices && Edge[v1][v2] == maxWeight)
 	{
 		Edge[v1][v2] = Edge[v2][v1] = cost;
